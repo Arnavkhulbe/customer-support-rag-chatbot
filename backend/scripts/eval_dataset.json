@@ -1,0 +1,38 @@
+{
+  "_comment": "Expected-answerable questions reference facts that are present in each knowledge PDF. Out-of-scope questions must be refused with the fallback response.",
+  "in_scope": [
+    { "id": "RET-1", "question": "How many days do I have to return an item?", "expected_document": "return-policy.pdf" },
+    { "id": "RET-2", "question": "What is the return window for ShopSphere orders?", "expected_document": "return-policy.pdf" },
+    { "id": "RET-3", "question": "From what date does the return period start?", "expected_document": "return-policy.pdf" },
+    { "id": "RET-4", "question": "How do I return a product I received?", "expected_document": "return-policy.pdf" },
+
+    { "id": "EXC-1", "question": "How long do I have to exchange an item?", "expected_document": "exchange-policy.pdf" },
+    { "id": "EXC-2", "question": "What is the exchange window for products?", "expected_document": "exchange-policy.pdf" },
+    { "id": "EXC-3", "question": "Can I exchange an item after 15 days?", "expected_document": "exchange-policy.pdf" },
+    { "id": "EXC-4", "question": "How do I request an exchange?", "expected_document": "exchange-policy.pdf" },
+
+    { "id": "PAY-1", "question": "How long does it take to receive a refund?", "expected_document": "payment-refund-policy.pdf" },
+    { "id": "PAY-2", "question": "When will my refund be processed after it is approved?", "expected_document": "payment-refund-policy.pdf" },
+    { "id": "PAY-3", "question": "How are refunds issued to customers?", "expected_document": "payment-refund-policy.pdf" },
+    { "id": "PAY-4", "question": "What is ShopSphere's refund policy?", "expected_document": "payment-refund-policy.pdf" },
+
+    { "id": "SHP-1", "question": "How long does standard delivery take?", "expected_document": "shipping-delivery.pdf" },
+    { "id": "SHP-2", "question": "What is the estimated shipping time for my order?", "expected_document": "shipping-delivery.pdf" },
+    { "id": "SHP-3", "question": "How many business days does delivery normally take?", "expected_document": "shipping-delivery.pdf" },
+    { "id": "SHP-4", "question": "When will my order be delivered?", "expected_document": "shipping-delivery.pdf" },
+
+    { "id": "ACC-1", "question": "How do I cancel my order?", "expected_document": "orders-account-help.pdf" },
+    { "id": "ACC-2", "question": "How can I track my order?", "expected_document": "orders-account-help.pdf" },
+    { "id": "ACC-3", "question": "How do I change my password?", "expected_document": "orders-account-help.pdf" },
+    { "id": "ACC-4", "question": "How do I update my phone number in my profile?", "expected_document": "orders-account-help.pdf" },
+    { "id": "ACC-5", "question": "How do I change my delivery address?", "expected_document": "orders-account-help.pdf" }
+  ],
+  "out_of_scope": [
+    { "id": "OOS-1", "question": "What is the capital of France?" },
+    { "id": "OOS-2", "question": "Write a Python function to sort a list." },
+    { "id": "OOS-3", "question": "Who won the FIFA World Cup in 2022?" },
+    { "id": "OOS-4", "question": "What is the weather in Tokyo today?" },
+    { "id": "OOS-5", "question": "Do you sell laptops?" },
+    { "id": "OOS-6", "question": "Tell me a joke." }
+  ]
+}
